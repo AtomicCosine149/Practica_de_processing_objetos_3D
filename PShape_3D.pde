@@ -1,3 +1,4 @@
+//18_09_2023
 PShape ball;
 PImage txtr;
 float theta;
@@ -19,11 +20,6 @@ void draw () {
   rotate(theta);
   rotateY(theta/2);
   scale (20.5);
-  shape (ball);
-  popMatrix();
-
-  theta+=.01; //increment angle
-}
   shape (ball);
   popMatrix();
 
